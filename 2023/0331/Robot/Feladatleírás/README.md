@@ -18,13 +18,11 @@ Például, ha a robot által kapott szó: `EENDN`, akkor a robot útvonala:
 
 &emsp;Készítsen programot, amely a parancsszót, azaz a betűk sorozatát egyszerűsíti, vagyis olyan új parancsszót állít elő, amelynek végrehajtásakor a robotot a kezdőpontból a végpontba a lehető legkevesebb utasítással juttatja el! A parancsszavak hossza legfeljebb 200 betű.
 
-<p align="center">
 |              | Parancsszó | Új parancsszó |
 | -----------: | ---------- | ------------- |
 | **1. példa** | ENEK       | EE            |
 | **2. példa** | EENDN      | ENN vagy NNE  |
 | **3. példa** | EEKDKDNN   |               |
-</p>
 
 &emsp;A program forráskódját mentse `robot` néven! A program megírásakor a felhasználó által megadott adatok helyességét, érvényességét nem kell ellenőriznie, és feltételezheti, hogy a rendelkezésre álló adatok a leírtaknak megfelelnek. Ha a robot kezdőpontja és mozgásának végpontja azonos, akkor az új parancsszó üres.
 
