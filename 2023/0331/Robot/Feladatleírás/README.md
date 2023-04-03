@@ -4,6 +4,8 @@
 
 <p style="text-align:justify;">
 
+<p style="text-align:justify;">
+
 &emsp;Egy egyszerű robot a végrehajtandó mozgását egy betűkből álló sorozattal, szóval kapja. Vízszintes síkban szabadon mozog, iránytűje segítségével pontosan be tudja tájolni magát. Az `E`, `D`, `K` vagy `N` betűk hatására egységnyit megy észak, dél, kelet vagy nyugat felé.
 
 </p>
