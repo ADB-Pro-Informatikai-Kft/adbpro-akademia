@@ -13,7 +13,7 @@
 Például, ha a robot által kapott szó: `EENDN`, akkor a robot útvonala:
 
 <p align="center">
-  <img src="./img/path.png">
+  <img src="./Feladatleírás/img/path.png">
 </p>
 
 &emsp;Készítsen programot, amely a parancsszót, azaz a betűk sorozatát egyszerűsíti, vagyis olyan új parancsszót állít elő, amelynek végrehajtásakor a robotot a kezdőpontból a végpontba a lehető legkevesebb utasítással juttatja el! A parancsszavak hossza legfeljebb 200 betű.
