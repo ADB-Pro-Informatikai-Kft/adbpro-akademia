@@ -1,22 +1,22 @@
-<style>body {text-align: justify;}</style>
-
 # 5. Robot
 
 &emsp;Sokféle tevékenységet végeznek a környezetünkben az automaták, illetve a robotok.
 
+<p style="text-align:justify;">
+
 &emsp;Egy egyszerű robot a végrehajtandó mozgását egy betűkből álló sorozattal, szóval kapja. Vízszintes síkban szabadon mozog, iránytűje segítségével pontosan be tudja tájolni magát. Az `E`, `D`, `K` vagy `N` betűk hatására egységnyit megy észak, dél, kelet vagy nyugat felé.
+
+</p>
 
 Például, ha a robot által kapott szó: `EENDN`, akkor a robot útvonala:
 
-<center>
-
-![](./img/path.png)
-
-</center>
+<p align="center">
+  <img src="./img/path.png">
+</p>
 
 &emsp;Készítsen programot, amely a parancsszót, azaz a betűk sorozatát egyszerűsíti, vagyis olyan új parancsszót állít elő, amelynek végrehajtásakor a robotot a kezdőpontból a végpontba a lehető legkevesebb utasítással juttatja el! A parancsszavak hossza legfeljebb 200 betű.
 
-<center>
+<p align="center">
 
 |              | Parancsszó | Új parancsszó |
 | -----------: | ---------- | ------------- |
@@ -24,7 +24,7 @@ Például, ha a robot által kapott szó: `EENDN`, akkor a robot útvonala:
 | **2. példa** | EENDN      | ENN vagy NNE  |
 | **3. példa** | EEKDKDNN   |               |
 
-</center>
+</p>
 
 &emsp;A program forráskódját mentse `robot` néven! A program megírásakor a felhasználó által megadott adatok helyességét, érvényességét nem kell ellenőriznie, és feltételezheti, hogy a rendelkezésre álló adatok a leírtaknak megfelelnek. Ha a robot kezdőpontja és mozgásának végpontja azonos, akkor az új parancsszó üres.
 
